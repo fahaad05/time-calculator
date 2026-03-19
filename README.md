@@ -48,7 +48,7 @@ npm run dev
 ```
 Open http://localhost:3000
 
-⸻
+---
 
 ## Notes
 This project is a simple utility tool built as part of a personal portfolio.
