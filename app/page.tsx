@@ -100,6 +100,8 @@ export default function TimeCalculator() {
             value={baseTime}
             onChange={(e) => setBaseTime(e.target.value)}
             className="w-full p-2 rounded bg-zinc-700 outline-none"
+            step="60"
+            lang="it-IT"
           />
 
           <div className="flex gap-2">
@@ -151,12 +153,16 @@ export default function TimeCalculator() {
               value={start}
               onChange={(e) => setStart(e.target.value)}
               className="w-full p-2 rounded bg-zinc-700 outline-none"
+              step="60"
+              lang="it-IT"
             />
             <input
               type="time"
               value={end}
               onChange={(e) => setEnd(e.target.value)}
               className="w-full p-2 rounded bg-zinc-700 outline-none"
+              step="60"
+              lang="it-IT"
             />
           </div>
 
